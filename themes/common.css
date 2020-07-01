@@ -98,8 +98,6 @@ Primary use:    Common.css file used for styling header, footer and
 }
 
 .landing-page-image-wrapper {
-    background-size: contain;
-    height: 70%;
     width: 100%;
     position: relative;
 }
@@ -142,6 +140,10 @@ Primary use:    Common.css file used for styling header, footer and
 
 .sub-list {
     padding-left: 30px;
+}
+
+.num-list{
+    list-style:decimal;
 }
 
 #landing-page-text-wrapper
@@ -241,10 +243,6 @@ Primary use:    Common.css file used for styling header, footer and
 }
 
 @media only screen and (max-width: 600px) {
-    .landing-page-image-wrapper {
-        background-image: url('../assets/images/landing-image.png');
-        height: 78vw;
-    }
     #landing-page-text-wrapper
     {   
         bottom: 10%;
@@ -278,10 +276,7 @@ Primary use:    Common.css file used for styling header, footer and
 }
 
 @media only screen and (min-width: 600px) {
-    .landing-page-image-wrapper {
-        background-image: url('../assets/images/landing-image.png');
-        height: 64.7vw;
-    }
+
     #landing-page-text-wrapper
     {   
         bottom: 10%;
@@ -313,10 +308,7 @@ Primary use:    Common.css file used for styling header, footer and
 }
 
 @media only screen and (min-width: 768px) {
-    .landing-page-image-wrapper {
-        background-image: url('../assets/images/landing-image.png');
-        height: 48.5vw;
-    }
+
     #landing-page-text-wrapper
     {
         bottom: 10%;
@@ -358,10 +350,6 @@ Primary use:    Common.css file used for styling header, footer and
         width: 510px;
     }
     
-    .landing-page-image-wrapper {
-        background-image: url('../assets/images/landing-image.png');
-        height: 41.5vw;
-    }
     #landing-page-text-wrapper
     {
         bottom: 10%;
@@ -383,10 +371,7 @@ Primary use:    Common.css file used for styling header, footer and
 }
 
 @media only screen and (min-width: 1192px) {
-    .landing-page-image-wrapper {
-        background-image: url('../assets/images/landing-image.png');
-        height: 30vw;
-    }
+
     #landing-page-text-wrapper
     {
         bottom: 10%;
