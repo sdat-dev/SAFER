@@ -101,6 +101,7 @@ Primary use:    Common.css file used for styling header, footer and
     background-size: contain;
     height: 70%;
     width: 100%;
+    position: relative;
 }
 
 .learn-more-text {
@@ -150,7 +151,7 @@ Primary use:    Common.css file used for styling header, footer and
     text-shadow: 3px 1px 2px black;
     left: 5%;
     padding: 10px;
-    position: relative;
+    position: absolute;
 }
 
 #landing-page-text-wrapper>h1
@@ -162,6 +163,15 @@ Primary use:    Common.css file used for styling header, footer and
 #landing-page-text-wrapper>p
 {
     color: #eeb211;
+}
+
+#landing-logo-wrapper{
+    position: absolute;
+    right: 5%;
+}
+
+#landing-logo-wrapper > img{
+    width: 100%;
 }
 
 .list-lower-alpha {
@@ -237,7 +247,7 @@ Primary use:    Common.css file used for styling header, footer and
     }
     #landing-page-text-wrapper
     {   
-        top: 27%;
+        bottom: 10%;
         width: 55%;
     }
     #landing-page-text-wrapper>h1
@@ -247,6 +257,10 @@ Primary use:    Common.css file used for styling header, footer and
     #landing-page-text-wrapper>p
     {
         display: none;
+    }
+    #landing-logo-wrapper{
+        bottom: 10%;
+        width: 20%;
     }
     .main-content {
         padding-top: 20px;
@@ -270,7 +284,7 @@ Primary use:    Common.css file used for styling header, footer and
     }
     #landing-page-text-wrapper
     {   
-        top: 42%;
+        bottom: 10%;
         width: 66%;
     }
     #landing-page-text-wrapper>h1
@@ -280,6 +294,10 @@ Primary use:    Common.css file used for styling header, footer and
     #landing-page-text-wrapper>p
     {
         display: none;
+    }
+    #landing-logo-wrapper{
+        bottom: 10%;
+        width: 20%;
     }
     .main-content>ul, .main-content>ol {
         margin-left: 20px;
@@ -301,7 +319,7 @@ Primary use:    Common.css file used for styling header, footer and
     }
     #landing-page-text-wrapper
     {
-        top: 42%;
+        bottom: 10%;
         width: 61%;
     }
     #landing-page-text-wrapper>h1
@@ -311,6 +329,10 @@ Primary use:    Common.css file used for styling header, footer and
     #landing-page-text-wrapper>p
     {
         display: none;
+    }
+    #landing-logo-wrapper{
+        bottom: 10%;
+        width: 20%;
     }
     .main-content>h1, .main-content>h2, .main-content>h3, .main-content>h4, .main-content>h5, .main-content>h6, .main-content>p, .main-content>div {
         margin-left: 50px;
@@ -342,7 +364,7 @@ Primary use:    Common.css file used for styling header, footer and
     }
     #landing-page-text-wrapper
     {
-        top: 41%;
+        bottom: 10%;
         width: 61%;
     }
     #landing-page-text-wrapper>h1
@@ -354,6 +376,10 @@ Primary use:    Common.css file used for styling header, footer and
         display: block;
         font-size: 1.9vw;
     }
+    #landing-logo-wrapper{
+        bottom: 10%;
+        width: 20%;
+    }
 }
 
 @media only screen and (min-width: 1192px) {
@@ -363,7 +389,7 @@ Primary use:    Common.css file used for styling header, footer and
     }
     #landing-page-text-wrapper
     {
-        top: 33%;
+        bottom: 10%;
         width: 62%;
     }
     #landing-page-text-wrapper>h1
@@ -373,5 +399,9 @@ Primary use:    Common.css file used for styling header, footer and
     #landing-page-text-wrapper>p
     {
         font-size: 1.75vw;
+    }
+    #landing-logo-wrapper{
+        bottom: 10%;
+        width: 20%;
     }
 }
