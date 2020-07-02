@@ -1,0 +1,58 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Primary use:    team.css file used for styling team page
+-------------------------------------------------------------------*/
+.team-member{
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+
+.member-image{
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    clear: both;
+}
+
+@media screen and (max-width: 1192px)
+{
+    .team-member{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+    .member-image{
+        float: left;
+        margin-right: 200px;
+        margin-left: 0px;
+        padding-bottom: 10px;
+    }
+    .team-member{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .member-image{
+        float: right;
+        margin-left: 20px;
+        margin-right: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .member-image{
+        float: left;
+        margin-left: 0px;
+        margin-right: 60%;
+        padding-bottom: 10px;
+    }
+}
