@@ -15,9 +15,9 @@ request.onload = function(){
         {
             content += '<p>' + element.content + '</p>';
         }
-        else if(element.type == 'img')
+        else if(element.type == 'iframe')
         {
-            content += '<img src="assets/images/'+ element.content + '" alt="" style="width: 100%;">';
+            content += '<iframe '+ element.content +'></iframe>';
         }
     });
 
