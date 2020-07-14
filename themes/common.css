@@ -146,6 +146,10 @@ Primary use:    Common.css file used for styling header, footer and
     list-style:decimal;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 #landing-page-text-wrapper
 {
     background-color: rgb(0, 0, 0, 0.5);
