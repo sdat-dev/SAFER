@@ -150,4 +150,5 @@ $(document).ready(function () {
         }
     });
 });
+
 $('#navbarSupportedContent').collapse('hide');
