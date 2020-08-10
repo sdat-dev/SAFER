@@ -1,13 +1,13 @@
-let addsidemenu = function(page){
-    let sidemenuItems = [{"item": "HOME", "link": "home.html"},
-                         {"item":"ABOUT", "link":"about.html"},
-                         {"item":"RESEARCH", "link":"research.html"},
-                         {"item":"TEAM", "link":"team.html"},
-                         {"item":"PARTNERS", "link":"partners.html"},
-                         {"item":"PUBLICATIONS", "link":"publications.html"},
-                         {"item":"NEWS AND EVENTS", "link":"#"},
-                         {"item":"CONTACT", "link":"contact.html"}]
+let sidemenuItems = [{"item": "HOME", "link": "home.html"},
+                    {"item":"ABOUT", "link":"about.html"},
+                    {"item":"RESEARCH", "link":"research.html"},
+                    {"item":"TEAM", "link":"team.html"},
+                    {"item":"PARTNERS", "link":"partners.html"},
+                    {"item":"PUBLICATIONS", "link":"publications.html"},
+                    {"item":"NEWS AND EVENTS", "link":"#"},
+                    {"item":"CONTACT", "link":"contact.html"}]
 
+let addsidemenu = function(page){
     let sidemenu = document.getElementById('navigation-bar');
 
     for(let i = 0; i < sidemenuItems.length; i++){
